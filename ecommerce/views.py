@@ -14,3 +14,6 @@ def item_view(request, item_id):
         }
 
         return render(request, 'index.html', context = context_data)
+
+def home_view(request):
+        return render(request, 'home.html')
