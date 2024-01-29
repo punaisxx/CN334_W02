@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checkout Page</title>
+        <style>
+            .cart {
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            .product {
+                margin-bottom: 10px;
+            }
+            .product img {
+                width: 100px;
+                height: 80px;
+                margin-right: 10px;
+            }
+            .product-info {
+                display: inline-block;
+            }
+            .product-price {
+                float: right;
+            }
+            .total-price {
+                font-weight: bold;
+            }
+            .checkout-button {
+                background-color: #86B6F6;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+            .checkout-button:hover {
+                background-color: #86B6F6;
+            }
+        </style>
+</head>
+<body>
+        <div class="cart">
+                <div class="product">
+                    <img src="https://i.pinimg.com/564x/9f/b2/86/9fb2864f44f60030b17fa7bba234a48d.jpg" alt="Product Image">
+                    <div class="product-info">
+                        <h3>Dog Food</h3>
+                        <p>Yummy dog food</p>
+                    </div>
+                    <div class="product-price">$10.99</div>
+                </div>
+                <div class="product">
+                        <img src="https://i.pinimg.com/564x/ed/00/c1/ed00c196978d311e05ded1ec5b33cc96.jpg" alt="Product Image">
+                        <div class="product-info">
+                            <h3>Sausage</h3>
+                            <p>Yummy sausage</p>
+                        </div>
+                        <div class="product-price">$4.99</div>
+                    </div>
+                <div class="total-price">Total: $15.98</div>
+                <button class="checkout-button">Checkout</button>
+            </div>
+</body>
+</html>

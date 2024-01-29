@@ -24,5 +24,9 @@ urlpatterns = [
     path("ecommerce/", ecom_views.ecommerce_index_view),
     path("ecommerce/item/<item_id>", ecom_views.item_view),
 
-    path('home/', ecom_views.home_view, name='home'),
+    path('ecommerce/home/', ecom_views.home_view, name='home'),
+    path('ecommerce/home/category/', ecom_views.category_view, name='category'),
+    path('ecommerce/home/product/', ecom_views.product_view, name='product'),
+    path('ecommerce/home/checkout/', ecom_views.checkout_view, name='checkout'),
+    path('ecommerce/home/contact/', ecom_views.contact_view, name='contact'),
 ]

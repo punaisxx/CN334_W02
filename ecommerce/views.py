@@ -17,3 +17,15 @@ def item_view(request, item_id):
 
 def home_view(request):
         return render(request, 'home.html')
+
+def category_view(request):
+        return render(request, 'category.html')
+
+def product_view(request):
+        return render(request, 'product.html')
+
+def checkout_view(request):
+        return render(request, 'checkout.html')
+
+def contact_view(request):
+        return render(request, 'contact.html')
